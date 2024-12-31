@@ -1,0 +1,149 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #15202B;
+    color: #FFFFFF;
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background-color: #192734;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1DA1F2;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar li i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.sidebar li:hover {
+    color: #1DA1F2;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.top-bar {
+    border-bottom: 1px solid #38444D;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.top-bar h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.post-area {
+    background-color: #192734;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.post-area textarea {
+    width: 100%;
+    background-color: #15202B;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    height: 60px;
+}
+
+.post-area button {
+    background-color: #1DA1F2;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.post-area button:hover {
+    background-color: #1A91DA;
+}
+
+.feed {
+    margin-top: 20px;
+}
+
+.post {
+    background-color: #192734;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+/* Trends Section */
+.trends {
+    width: 20%;
+    background-color: #192734;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.trends h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.trends ul {
+    list-style: none;
+    padding: 0;
+}
+
+.trends li {
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 1px solid #38444D;
+    display: flex;
+    align-items: center;
+}
+
+.trends li i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.trends li:hover {
+    color: #1DA1F2;
+}
